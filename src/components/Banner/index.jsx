@@ -1,7 +1,7 @@
 import "./style.css";
-import dividerIcon from "../../assets/icons/divider.png";
 import bannerHikingIcon from "../../assets/icons/bannerHikingIcon.png";
-function Banner({data}) {
+import dividerIcon from "../../assets/icons/divider.png";
+function Banner({ data }) {
   return (
     <div className="banner-wrapper">
       <img src={data.img} alt="#" className="banner" />
