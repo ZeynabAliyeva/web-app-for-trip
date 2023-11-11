@@ -1,5 +1,4 @@
 import "./style.css";
-import bannerHomePage from "../../assets/images/bannerHomePage.png";
 import bannerHikingIcon from "../../assets/icons/bannerHikingIcon.png";
 import dividerIcon from "../../assets/icons/divider.png";
 function Banner({data}) {
