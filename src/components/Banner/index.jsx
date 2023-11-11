@@ -1,5 +1,6 @@
 import "./style.css";
 import bannerHikingIcon from "../../assets/icons/bannerHikingIcon.png";
+import dividerIcon from "../../assets/icons/divider.png";
 function Banner({ data }) {
   return (
     <div className="banner-wrapper">
@@ -18,7 +19,7 @@ function Banner({ data }) {
             <span className="hikerName">
               {data.hikerName ? data.hikerName : <img src={data.stars} />}
             </span>
-            <img src={bannerHikingIcon} alt="#" />
+            <img src={dividerIcon} alt="#" />
             <span className="hikerCountry">{data.hikerCountry}</span>
           </div>
         </div>
