@@ -1,6 +1,6 @@
 import "./style.css";
-import bannerHikingIcon from "../../assets/icons/bannerHikingIcon.png";
 import dividerIcon from "../../assets/icons/divider.png";
+import bannerHikingIcon from "../../assets/icons/bannerHikingIcon.png";
 function Banner({data}) {
   return (
     <div className="banner-wrapper">
