@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.contacts-wrapper {
+  margin: 0 72px 120px;
+  display: flex;
+  justify-content: center;
+}
+.contacts-container {
+  width: 526px;
+  margin-right: 24px;
+}
+.contact-title {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.contact-sub__title {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+.email-adress {
+  color: #4a21ef;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 520px) {
+  .contacts-wrapper {
+    margin: 0 15px 120px;
+    flex-direction: column;
+  }
+  .contact-title,
+  .contact-sub__title{
+    width: 300px;
+  }
+  .contacts-container {
+    width: 0;
+  }
+}

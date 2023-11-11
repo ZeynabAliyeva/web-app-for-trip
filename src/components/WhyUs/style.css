@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.whyUs-wrapper {
+  margin: 0 72px 120px;
+}
+.whyUs-wrapper h1 {
+  margin-bottom: 40px;
+  color: #141d24;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.whyUs-container {
+  display: flex;
+  justify-content: center;
+}
+.whyUs-container div:not(:last-of-type) {
+  margin-right: 47px;
+}
+.map-icon {
+  padding: 18px;
+}
+.icon-box {
+  width: 60px;
+  margin-right: 16px;
+  border-radius: 100px;
+  background-color: #4a21ef;
+}
+.inner-container {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  border-radius: 20px;
+  background-color: #f5f7fa;
+}
+.inner-container p {
+  text-align: left;
+  color: #141d24;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+@media only screen and (max-width: 1024px) {
+  .whyUs-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .whyUs-container div:not(:last-of-type) {
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .whyUs-wrapper {
+    margin: 0 15px 120px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .inner-container {
+    width: 280px;
+    padding: 20px;
+  }
+}

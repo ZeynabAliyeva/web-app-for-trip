@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.joinRevolution-inner_wrapper {
+  padding: 120px 0;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.joinRevolution-inner_wrapper h1 {
+  color: #141d24;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 16px;
+}
+.joinRevolution-inner_wrapper p {
+  max-width: 600px;
+  width: 100%;
+  color: #141d24;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.joinRevolution-signUp {
+  width: 380px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.joinRevolution-signUp input {
+  width: 380px;
+  height: 40px;
+  padding: 8px 24px;
+  border-radius: 99px;
+  border: 1px solid #c9d2da;
+  background-color: #fff;
+}
+.joinRevolution-signUp_btn {
+  position: absolute;
+  right: 12px;
+  top: 9px;
+  padding: 9px 16px;
+  border: none;
+  border-radius: 24px;
+  background: #4a21ef;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+@media only screen and (max-width: 770px) {
+  .joinRevolution-wrapper {
+    margin: 0 15px 120px;
+  }
+}
+@media only screen and (max-width: 595px) {
+  .joinRevolution-signUp input,
+  .joinRevolution-signUp {
+    width: 280px;
+  }
+}

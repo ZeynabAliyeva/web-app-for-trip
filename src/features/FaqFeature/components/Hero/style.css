@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.faq-hero_wrapper {
+  height: 424px;
+  margin: 0 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../../../assets/images/faqHero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-bottom: 120px;
+}
+.faq-hero_wrapper h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 16px;
+  margin-top: 142px;
+}
+.faq-hero_wrapper p {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+@media only screen and (max-width: 770px) {
+  .faq-hero_wrapper {
+    margin: 0 15px 120px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .faq-hero_wrapper h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .faq-hero_wrapperh1 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .faq-hero_wrapper h1 {
+    font-size: 18px;
+  }
+  .faq-hero_wrapper p {
+    font-size: 12px;
+  }
+}

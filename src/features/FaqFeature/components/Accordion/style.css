@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.accordion {
+  max-width: 1165px;
+  width: 100%;
+  margin: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-item {
+  padding: 32px 60px;
+  background-color: #ffffff;
+}
+
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  background-color: #ffffff;
+  border: 0;
+  font-size: 22px;
+  cursor: pointer;
+}
+.accordion-left {
+  display: flex;
+  align-items: center;
+}
+.accordion-number {
+  color: #4a21ef;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.accordion-title {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  margin: 0 50px 0 40px;
+}
+.buttons-container {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 24px;
+  text-align: center;
+}
+.accordion-body {
+  max-width: 804px;
+  width: 100%;
+  color: #141d24;
+  text-align: justify;
+  font-weight: 300;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 24px;
+}
+.accordion-collapse {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s;
+  margin-left: 97px;
+}
+
+.accordion-collapse.open {
+  height: auto;
+}
+.closeBtn {
+  background-color: #4a21ef;
+}
+.horizontal-line {
+  max-width: 1200px;
+  width: 100%;
+  height: 1px;
+  background: #e3e7eb;
+}
+@media only screen and (max-width: 768px) {
+  .accordion-item {
+    padding: 16px;
+  }
+  .accordion-number {
+    font-size: 32px;
+  }
+  .accordion-title {
+    font-size: 18px;
+    margin: 0 30px 0 20px;
+  }
+  .buttons-container {
+    width: 36px;
+    height: 36px;
+  }
+  .accordion-collapse {
+    margin-left: 70px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .accordion-number {
+    padding-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .accordion-item {
+    padding: 12px;
+  }
+  .accordion-number {
+    font-size: 28px;
+  }
+  .accordion-title {
+    font-size: 16px;
+    margin: 0 20px 0 15px;
+  }
+  .buttons-container {
+    width: 32px;
+    height: 32px;
+  }
+  .accordion-collapse {
+    margin-left: 60px;
+  }
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.trip-plan__wrapper {
+  margin: 0 72px 120px;
+}
+.trip-plan__wrapper h1 {
+  margin-bottom: 40px;
+  color: #141d24;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.plans-container {
+  display: grid;
+  gap: 70px 24px;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.plan-icon {
+  padding: 18px;
+}
+.icons-box {
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+  border-radius: 50%;
+  background-color: #4a21ef;
+}
+.plan-box {
+  width: 355px;
+  height: 100%;
+  padding: 32px 32px 0;
+  display: flex;
+  border-radius: 20px;
+  background-color: #f5f7fa;
+}
+
+.explanation-box p:first-child {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.explanation-box p:last-child {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 14px;
+  line-height: 24px;
+}
+@media only screen and (max-width: 1320px) {
+  .plans-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width: 870px) {
+  .trip-plan__wrapper {
+    margin: 0 15px 120px;
+  }
+  .plans-container {
+    grid-template-columns: auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .plan-box {
+    width: 280px;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.hero_wrapper {
+  height: 100vh;
+  margin: 0 72px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../../../assets/videos/heroHome.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.hero-search {
+  width: 390px;
+  text-align: center;
+  position: relative;
+}
+.hero-search input {
+  width: 380px;
+  height: 40px;
+  padding: 8px 24px;
+  border-radius: 99px;
+  border: 1px solid #c9d2da;
+  background-color: #fff;
+}
+.hero-search_btn {
+  position: absolute;
+  right: -30px;
+  top: 7px;
+  padding: 11px;
+  border: none;
+  border-radius: 100px;
+  background: #4a21ef;
+}
+.hero_wrapper h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 16px;
+}
+.hero_wrapper p {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 770px) {
+  .hero_wrapper {
+    margin: 0 15px 120px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .hero_wrapper h1 {
+    font-size: 40px;
+  }
+  .hero-search input {
+    width: 320px;
+    height: 44px;
+  }
+  .hero-search_btn {
+    right: 23px;
+    top: 8px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .hero_wrapper h1 {
+    font-size: 30px;
+  }
+  .hero-search input {
+    width: 255px;
+    height: 55px;
+    padding: 8px 24px;
+  }
+  .hero-search_btn {
+    right: 58px;
+    top: 14px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .hero_wrapper h1 {
+    font-size: 22px;
+  }
+  .hero-search input {
+    width: 220px;
+    height: 43px;
+    padding: 8px 24px;
+  }
+  .hero-search_btn {
+    right: 67px;
+    top: 8px;
+  }
+  .hero_wrapper p {
+    font-size: 12px;
+  }
+}

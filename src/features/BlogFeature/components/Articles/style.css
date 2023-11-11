@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.articles-wrapper {
+  margin: 0 72px 120px;
+}
+.articles-top__container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.article-info__container {
+  max-width: 602px;
+  height: 124px;
+  padding: 16px;
+  border-radius: 0px 0px 15px 15px;
+  border-right: 1px solid #e3e7eb;
+  border-bottom: 1px solid #e3e7eb;
+  border-left: 1px solid #e3e7eb;
+  background-color: #fff;
+}
+.article-title {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  padding-bottom: 12px;
+}
+.article-sub__title {
+  height: 53px;
+  overflow: hidden;
+  cursor: pointer;
+  color: #141d24;
+  text-overflow: ellipsis;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 45px;
+}
+.articles-bottom__container {
+  display: flex;
+  justify-content: center;
+}
+.article-info__bottom {
+  max-width: 382px;
+  height: 92px;
+  padding: 16px;
+  border-radius: 0px 0px 15px 15px;
+  border-right: 1px solid #e3e7eb;
+  border-bottom: 1px solid #e3e7eb;
+  border-left: 1px solid #e3e7eb;
+  background-color: #fff;
+}
+
+.articles-top__container .article-item:not(:last-child),
+.articles-bottom__container .article-item:not(:last-child) {
+  margin-right: 24px;
+}
+@media only screen and (max-width: 1430px) {
+  .articles-top__container,
+  .articles-bottom__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .articles-top__container .article-item:not(:last-child),
+  .articles-bottom__container .article-item:not(:last-child) {
+    margin: 0 0 20px 0;
+  }
+  .article-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .article-info__container {
+    max-width: none;
+    width: none;
+  }
+
+  .article-info__bottom {
+    max-width: none;
+    width: none;
+  }
+}
+@media only screen and (max-width: 1040px) {
+  .btns-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}

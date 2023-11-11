@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.detail-hero__wrapper {
+  height: 772px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../../../../assets/images//amalfiDetailPage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin: 0 72px 120px;
+}
+.detail-create__btn {
+  padding: 12px 24px;
+  margin-bottom: 250px;
+  border: none;
+  border-radius: 100px;
+  color: #fff;
+  background: #4a21ef;
+}
+.detail-hero__wrapper h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 16px;
+  margin-top: 226px;
+}
+.pr-text {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.empty-line {
+  width: 1px;
+  height: 70px;
+  background-color: #fff;
+}
+.detail-info__container {
+  display: flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+}
+.country-info {
+  width: 192px;
+  display: flex;
+  color: #fff;
+}
+.info-icon {
+  margin-right: 16px;
+}
+.country-info__head {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter;
+  font-style: normal;
+}
+.info-head__innerText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter;
+  font-style: normal;
+}
+.first-paragraf {
+  margin: 16px 0 12px;
+}
+.empty-line {
+  margin: 0 24px 0 35px;
+}
+@media only screen and (max-width: 1360px) {
+  .detail-create__btn {
+    margin-bottom: 150px;
+  }
+  .detail-info__container {
+    justify-content: center;
+  }
+  .country-info {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .detail-create__btn {
+    margin-bottom: 26px;
+  }
+  .detail-hero__wrapper {
+    margin: 0 15px 120px;
+  }
+}
+@media only screen and (max-width: 590px) {
+  .detail-hero__wrapper h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .detail-hero__wrapper h1 {
+    font-size: 30px;
+  }
+  .detail-info__container > div:nth-last-child(-n + 4) {
+    display: none;
+  }
+  .detail-create__btn {
+    margin-bottom: 55px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .detail-hero__wrapper h1 {
+    font-size: 22px;
+  }
+  .detail-hero__wrapper p {
+    font-size: 12px;
+  }
+}

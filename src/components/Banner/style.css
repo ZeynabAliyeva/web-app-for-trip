@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.banner-wrapper {
+  position: relative;
+  margin-bottom: 120px;
+}
+.banner {
+  width: 100%;
+}
+.banner-text {
+  width: 340px;
+  padding: 24px 32px;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  background-color: #fff;
+}
+.banner-text_container {
+  position: absolute;
+  right: 72px;
+  bottom: 50px;
+}
+.banner-text p {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.banner-text p:nth-of-type(2) {
+  margin-top: 7px;
+  color: #4a21ef;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.banner-text p:nth-of-type(3) {
+  margin: 10px 0;
+  color: #788795;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.banner-text p:last-child {
+  color: #5e6f7d;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+.trip-crafted_container {
+  width: 340px;
+  padding: 20px 32px;
+  display: flex;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.bannerHikingIcon {
+  border-radius: 100px;
+  padding: 18px;
+  background: #4a21ef;
+}
+.trip-crafted {
+  padding-top: 6px;
+  padding-left: 16px;
+}
+.trip-crafted p {
+  color: #788795;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  padding-bottom: 6px;
+}
+.hikerName {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.hikerCountry {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 24px;
+}
+@media only screen and (max-width: 840px) {
+  .banner-text_container {
+    right: 70px;
+    bottom: 20px;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .banner {
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .banner-text_container {
+    right: 35px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .banner-text_container {
+    right: 15px;
+  }
+  .trip-crafted_container {
+    padding: 20px 20px;
+  }
+  .banner-text {
+    padding: 24px 20px;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .trip-crafted_container {
+    padding: 20px 10px;
+  }
+  .banner-text {
+    padding: 24px 10px;
+  }
+}

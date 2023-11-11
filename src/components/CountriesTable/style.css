@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper {
+  display: none;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 80%;
+}
+
+.table-inner_wrapper {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.detail-container {
+  width: 92%;
+}
+
+/* slide end */
+.countries-table_wrapper {
+  margin: 0 72px 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.countries-table_wrapper h1 {
+  margin-bottom: 40px;
+  color: #141d24;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.tables-container {
+  max-width: 1332px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.table-inner_wrapper {
+  width: 416px;
+  margin-bottom: 40px;
+}
+.table-inner_wrapper:not(:last-child) {
+  margin-right: 44px;
+}
+.detail-container {
+  padding: 16px;
+  border-radius: 0px 0px 15px 15px;
+  border-right: 1px solid #e3e7eb;
+  border-bottom: 1px solid#e3e7eb;
+  border-left: 1px solid #e3e7eb;
+  background-color: #fff;
+  text-align: left;
+}
+.detail-container p:first-child {
+  color: #5e6f7d;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 8px;
+}
+.detail-container p {
+  color: #141d24;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+.daily-amount_container {
+  display: flex;
+  color: #5e6f7d;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  justify-content: space-between;
+}
+.amount-text {
+  color: #141d24;
+  text-align: right;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+@media only screen and (max-width: 770px) {
+  .countries-table_wrapper {
+    margin: 0 15px 120px;
+  }
+}
+@media only screen and (max-width: 1406px) {
+  .tables-container {
+    display: none;
+  }
+
+  .mySwiper {
+    display: block;
+  }
+}

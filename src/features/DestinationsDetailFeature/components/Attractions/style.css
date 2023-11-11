@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.attractions-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 72px 120px;
+}
+.attractions-header {
+  color: #141d24;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+.attractions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.attraction-container {
+  width: 416px;
+  height: 355px;
+}
+.info-box {
+  padding: 0 16px 25px;
+  border-radius: 0px 0px 15px 15px;
+  border-right: 1px solid #e3e7eb;
+  border-bottom: 1px solid #e3e7eb;
+  border-left: 1px solid #e3e7eb;
+  background: #fff;
+}
+.attraction-container:not(:last-child) {
+  margin-right: 24px;
+}
+.attraction-title {
+  padding: 16px 0 12px;
+  color: #141d24;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+.attraction-subTitle {
+  overflow: hidden;
+  cursor: pointer;
+  color: #141d24;
+  text-overflow: ellipsis;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-height: 45px;
+}
+@media only screen and (max-width: 1320px) {
+  .attractions-container {
+    display: none;
+  }
+}

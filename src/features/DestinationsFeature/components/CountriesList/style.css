@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.countries-list_wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 182px 120px 182px;
+}
+.country-wrapper {
+  width: 196px;
+  margin-right: 24px;
+}
+.country-wrapper h1 {
+  color: #4a21ef;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+.country-list {
+  color: #141d24;
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (max-width: 950px) {
+  .countries-list_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .countries-list_wrapper {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media only screen and (max-width: 510px) {
+  .countries-list_wrapper {
+    grid-template-columns: auto;
+  }
+  .country-list a {
+    font-size: 24px;
+  }
+}
