@@ -37,6 +37,7 @@ function CountriesTable({ title, data }) {
         className="mySwiper"
         initialSlide={1}
       >
+      
         {data.map((table) => (
           <SwiperSlide key={table.title} className="table-inner_wrapper">
             <div className="img-container">
